@@ -1,88 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arya's</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="icon" href="/assets/">
-</head>
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/assets/" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="navbar-container">
-          <p>Em<span>.</span></p>
+      <div class="navbar-container">
+        <p>Em<span>.</span></p>
+      </div>
+      <div id="menu-icon" class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul id="menu-list" class="hidden">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Package</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="home-container">
+      <div class="home-wrapper-left">
+        <div class="foto-gwa">
+          <img
+            src="/assets/Vestia-Zeta_pr-img_03 (1).png"
+            alt="Arya Maulana"
+            width="90%"
+          />
         </div>
-        <div id="menu-icon" class="menu-icon">
-          <i class="fa-solid fa-bars"></i>
+        <div class="biodata">
+          <h1>Arya Maulana</h1>
         </div>
-        <ul id="menu-list" class="hidden">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">My Package</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-
-
-      <section class="home-container">
-        <div class="home-wrapper-left">
-            <div class="foto-gwa">
-              <img src="/assets/Vestia-Zeta_pr-img_03 (1).png" alt="Arya Maulana" width="90%">
-            </div>
-            <div class="biodata">
-              <h1>Arya Maulana</h1>
-            </div>
-            <div class="slider">
-              <span class="text first-text">I'm a </span>
-              <span class="text sec-text">Frontend Developer</span>
-            </div>
-          </div>
-
-        <div class="home-wrapper-right">
-          <div class="home-header">
-            <div class="garis"></div>
-            <p>A litle bit about me</p>
-          </div>
-          <div class="home-content">
-            <p>
-              Hiii! I'm Arya, I'm a 10th grade student at SMK Telkom Malang who
-              has an interest in web development and wants to develop it so that
-              I can fully master it.
-            </p>
-          </div>
-
-          <div class="wrapper-info">
-            <table class="info-table">
-              <thead>
-                <tr>
-                  <th colspan="2">Information</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="font-weight: 600; color: #40a2e3">Name</td>
-                  <td>Arya Maulana</td>
-                </tr>
-                <tr>
-                  <td style="font-weight: 600; color: #40a2e3">Birthday</td>
-                  <td>10 january, 2008</td>
-                </tr>
-                <tr>
-                  <td style="font-weight: 600; color: #40a2e3">Phone</td>
-                  <td>+62 818 0474 8037</td>
-                </tr>
-                <tr>
-                  <td style="font-weight: 600; color: #40a2e3">Email</td>
-                  <td>ary4maulanaa@gmail.com</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
+        <div class="slider">
+          <span class="text first-text">I'm a </span>
+          <span class="text sec-text">Frontend Developer</span>
         </div>
-      </section>
+      </div>
 
-      <section class="package-container">
-        
-      </section>
-</body>
+      <div class="home-wrapper-right">
+        <div class="home-header">
+          <div class="garis"></div>
+          <p>A litle bit about me</p>
+        </div>
+        <div class="home-content">
+          <p>
+            Hiii! I'm Arya, I'm a 10th grade student at SMK Telkom Malang who
+            has an interest in web development and wants to develop it so that I
+            can fully master it.
+          </p>
+        </div>
+
+        <div class="wrapper-info">
+          <table class="info-table">
+            <thead>
+              <tr>
+                <th colspan="2">Information</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="font-weight: 600; color: #40a2e3">Name</td>
+                <td>Arya Maulana</td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600; color: #40a2e3">Birthday</td>
+                <td>10 january, 2008</td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600; color: #40a2e3">Phone</td>
+                <td>+62 818 0474 8037</td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600; color: #40a2e3">Email</td>
+                <td>ary4maulanaa@gmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="package-container"></section>
+
+    <section class="contact-container">
+      <div class="footer-section">
+        <div class="social">
+          <p>STAY CONNECTED</p>
+          <div class="social-icons">
+            <div class="github-icon">
+              <a href="https://github.com/AryaEm"> <i class="fa-brands fa-github"></i> </a>
+            </div>
+            <div class="ig-icon">
+              <a href="https://www.instagram.com/aryaa.em/"> <i class="fa-brands fa-instagram"></i> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-footer">
+          <p>ABOUT</p>
+            <H3>Junior web developer & UI/UX designer.</H3>
+        </div>
+      </div>
+
+      <div class="contact-section">
+       
+      </div>
+    </section>
+  </body>
 </html>

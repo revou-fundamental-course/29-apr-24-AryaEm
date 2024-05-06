@@ -22,3 +22,5 @@ const textLoad = () => {
 
         // Repeat the process every 8 seconds (4000ms for each text + 4000ms delay)
         setInterval(textLoad, 8000);
+
+        

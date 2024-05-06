@@ -98,7 +98,7 @@ nav ul li a:hover {
 .home-container {
   background: #efefef;
   width: 100%;
-  height: 600px;
+  height: 700px;
   margin-top: 65px;
   display: flex;
   justify-content: space-between;
@@ -111,7 +111,7 @@ nav ul li a:hover {
   /* justify-content: center; */
   align-items: center;
   width: 38%;
-  height: 90%;
+  height: 80%;
   border: 1px solid rgba(128, 128, 128, 0.753);
   margin-left: 80px;
   background: #f9f9f9;
@@ -190,7 +190,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   width: 46%;
-  height: 85%;
+  height: 75%;
   margin-right: 80px;
   border: 1px solid rgba(128, 128, 128, 0.753);
   background: #f9f9f9;
@@ -268,3 +268,129 @@ nav ul li a:hover {
   font-weight: 700px;
   font-size: 20px;
 }
+
+/* My Package  */
+.package-container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+}
+
+.contact-container {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #67adb9;
+  padding: 0 80px;
+}
+
+.footer-section {
+  width: 45%;
+  height: 90%;
+  /* border: 1px solid; */
+  padding-top:30px;
+}
+.contact-section {
+  width: 45%;
+  height: 90%;
+  border: 1px solid;
+  padding: 40px;
+}
+
+.contact-container > .footer-section > .social {
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.contact-container > .footer-section > .social > .social-icons {
+  padding: 14px 0;
+  width: 100px;
+  font-size: 14px;
+  display: flex;
+}
+
+.contact-container .footer-section .social .github-icon {
+  border: 1px solid white;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.5s all ease;
+}
+
+.contact-container .footer-section .social .github-icon a {
+  color: white;
+  transition: 0.5s all ease;
+}
+
+.contact-container .footer-section .social .ig-icon a {
+  color: white;
+  transition: 0.5s all ease;
+}
+
+.contact-container .footer-section .social .ig-icon {
+  border: 1px solid white;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s all ease;
+
+}
+
+.contact-container .footer-section .social .github-icon:hover {
+  width: 35px;
+  height: 35px;
+  -webkit-box-shadow: 0px 0px 100px -40px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 100px -40px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 100px -40px rgba(255, 255, 255, 1);
+}
+.contact-container .footer-section .social .github-icon a:hover {
+  font-size: 18px;
+}
+.contact-container .footer-section .social .ig-icon:hover {
+  width: 35px;
+  height: 35px;
+  -webkit-box-shadow: 0px 0px 100px -40px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 100px -40px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 100px -40px rgba(255, 255, 255, 1);
+}
+.contact-container .footer-section .social .ig-icon a:hover {
+  font-size: 18px;
+}
+
+
+.contact-container > .footer-section > .about-footer p {
+  color: white;
+  padding: 0 20px 20px 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.contact-container > .footer-section > .about-footer > h3{
+  color: #efefef;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  /* border: 1px solid; */
+  width: 80%;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
