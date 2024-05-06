@@ -20,13 +20,13 @@
         <i class="fa-solid fa-bars"></i>
       </div>
       <ul id="menu-list" class="hidden">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">My Package</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#mypackage">My Package</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
-    <section class="home-container">
+    <section class="home-container" id="home"> 
       <div class="home-wrapper-left">
         <div class="foto-gwa">
           <img
@@ -89,7 +89,7 @@
 
     <section class="package-container"></section>
 
-    <section class="contact-container">
+    <section class="contact-container" id="contact">
       <div class="footer-section">
         <div class="social">
           <p>STAY CONNECTED</p>
@@ -110,7 +110,16 @@
       </div>
 
       <div class="contact-section">
-       
+        <div class="contact-header">
+          <p>Start a project with me</p>
+        </div>
+        <form action="">
+          <div class="form-head">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="First and last name" required>
+        </div>
+
+        </form>
       </div>
     </section>
   </body>

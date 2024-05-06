@@ -190,7 +190,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   width: 46%;
-  height: 75%;
+  height: 80%;
   margin-right: 80px;
   border: 1px solid rgba(128, 128, 128, 0.753);
   background: #f9f9f9;
@@ -295,12 +295,7 @@ nav ul li a:hover {
   /* border: 1px solid; */
   padding-top:30px;
 }
-.contact-section {
-  width: 45%;
-  height: 90%;
-  border: 1px solid;
-  padding: 40px;
-}
+
 
 .contact-container > .footer-section > .social {
   color: white;
@@ -394,3 +389,31 @@ nav ul li a:hover {
   margin-top: -10px;
 }
 
+
+.contact-section {
+  width: 45%;
+  height: 90%;
+  border: 1px solid;
+  padding: 20px;
+}
+
+.contact-header p{
+  font-size: 20px;
+  font-weight: 700;
+  color:white;
+}
+
+form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-head {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
