@@ -397,23 +397,3 @@ nav ul li a:hover {
   padding: 20px;
 }
 
-.contact-header p{
-  font-size: 20px;
-  font-weight: 700;
-  color:white;
-}
-
-form {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.form-head {
-  margin-bottom: 10px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
