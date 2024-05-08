@@ -21,17 +21,13 @@ textLoad();
 
 setInterval(textLoad, 8000);
 
-// Access the Images
 let slideImages = document.querySelectorAll("img");
-// Access the next and prev buttons
 let next = document.querySelector(".next");
 let prev = document.querySelector(".prev");
-// Access the indicators
 let dots = document.querySelectorAll(".dot");
 
 var counter = 0;
 
-// Code for next button
 next.addEventListener("click", slideNext);
 function slideNext() {
   slideImages[counter].style.animation = "next1 0.5s ease-in forwards";
@@ -44,7 +40,6 @@ function slideNext() {
   indicators();
 }
 
-// Code for prev button
 prev.addEventListener("click", slidePrev);
 function slidePrev() {
   slideImages[counter].style.animation = "prev1 0.5s ease-in forwards";
