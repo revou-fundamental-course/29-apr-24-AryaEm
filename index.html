@@ -26,12 +26,44 @@
       </ul>
     </nav>
 
-    <section class="home-container" id="home"> 
-      <div class="home-wrapper-left">
+    <section class="home-container">
+      <div class="home-header">
+        <h1>Arya Maulana</h1>
+        <p>UI/UX Designer and FrontEnd Developer</p>
+      </div>
+
+      <div class="banner-slider">
+        <div class="slide-container">
+          <div class="slides">
+            <img src="/assets/Screenshot (324).png" class="active" />
+            <img src="/assets/Screenshot (326).png" />
+            <img src="/assets/Screenshot (327).png" />
+            <img src="/assets/Screenshot (328).png" />
+            <img src="/assets/Screenshot (329).png" />
+          </div>
+
+          <div class="buttons">
+            <span class="next">&#10095;</span>
+            <span class="prev">&#10094;</span>
+          </div>
+
+          <div class="dotsContainer">
+            <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+            <div class="dot" attr="1" onclick="switchImage(this)"></div>
+            <div class="dot" attr="2" onclick="switchImage(this)"></div>
+            <div class="dot" attr="3" onclick="switchImage(this)"></div>
+            <div class="dot" attr="4" onclick="switchImage(this)"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="package-container" id="package">
+      <div class="package-wrapper-left">
         <div class="foto-gwa">
           <img
             src="/assets/Vestia-Zeta_pr-img_03 (1).png"
-            alt="Arya Maulana"
+            alt="Contoh Foto"
             width="90%"
           />
         </div>
@@ -44,12 +76,12 @@
         </div>
       </div>
 
-      <div class="home-wrapper-right">
-        <div class="home-header">
+      <div class="package-wrapper-right">
+        <div class="package-header">
           <div class="garis"></div>
           <p>A litle bit about me</p>
         </div>
-        <div class="home-content">
+        <div class="package-content">
           <p>
             Hiii! I'm Arya, I'm a 10th grade student at SMK Telkom Malang who
             has an interest in web development and wants to develop it so that I
@@ -87,25 +119,27 @@
       </div>
     </section>
 
-    <section class="package-container"></section>
-
     <section class="contact-container" id="contact">
       <div class="footer-section">
         <div class="social">
           <p>STAY CONNECTED</p>
           <div class="social-icons">
             <div class="github-icon">
-              <a href="https://github.com/AryaEm"> <i class="fa-brands fa-github"></i> </a>
+              <a href="https://github.com/AryaEm">
+                <i class="fa-brands fa-github"></i>
+              </a>
             </div>
             <div class="ig-icon">
-              <a href="https://www.instagram.com/aryaa.em/"> <i class="fa-brands fa-instagram"></i> </a>
+              <a href="https://www.instagram.com/aryaa.em/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="about-footer">
           <p>ABOUT</p>
-            <H3>Junior web developer & UI/UX designer.</H3>
+          <h3>Junior web developer & UI/UX designer.</h3>
         </div>
       </div>
 
@@ -113,5 +147,7 @@
         <div></div>
       </div>
     </section>
+
+    <script src="/js/script.js"></script>
   </body>
 </html>
