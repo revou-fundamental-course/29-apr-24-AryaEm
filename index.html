@@ -1,235 +1,235 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arya's</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="icon" href="/assets/" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-  </head>
-  <body>
-    <nav>
-      <div class="navbar-container">
-        <p>Em<span>.</span></p>
-      </div>
-      <div id="menu-icon" class="menu-icon">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-      <ul id="menu-list" class="hidden">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#mypackage">My Package</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <section class="home-container">
-      <div class="home-header">
-        <h1>Arya Maulana</h1>
-        <p>UI/UX Designer and FrontEnd Developer</p>
-        <p style="font-size: 20px; margin-top: 15px; margin-bottom: -10px">
-          Recent Project
-        </p>
-      </div>
-
-      <div class="banner-slider">
-        <div class="slide-container">
-          <div class="slides">
-            <img src="/assets/Screenshot (324).png" class="active" />
-            <img src="/assets/Screenshot (326).png" />
-            <img src="/assets/Screenshot (327).png" />
-            <img src="/assets/Screenshot (328).png" />
-            <img src="/assets/Screenshot (329).png" />
-          </div>
-
-          <div class="buttons">
-            <span class="next">&#10095;</span>
-            <span class="prev">&#10094;</span>
-          </div>
-
-          <div class="dotsContainer">
-            <div class="dot active" attr="0" onclick="switchImage(this)"></div>
-            <div class="dot" attr="1" onclick="switchImage(this)"></div>
-            <div class="dot" attr="2" onclick="switchImage(this)"></div>
-            <div class="dot" attr="3" onclick="switchImage(this)"></div>
-            <div class="dot" attr="4" onclick="switchImage(this)"></div>
-          </div>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Arya's</title>
+      <link rel="stylesheet" href="/css/style.css" />
+      <link rel="icon" href="/assets/icon.png" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      />
+    </head>
+    <body>
+      <nav>
+        <div class="navbar-container">
+          <p>Em<span>.</span></p>
         </div>
-      </div>
-    </section>
-
-    <section class="package-container" id="package">
-      <div class="package-wrapper-left">
-        <div class="foto-gwa">
-          <img
-            src="/assets/Vestia-Zeta_pr-img_03 (1).png"
-            alt="Contoh Foto"
-            width="90%"
-          />
+        <div id="menu-icon" class="menu-icon">
+          <i class="fa-solid fa-bars"></i>
         </div>
-        <div class="biodata">
+        <ul id="menu-list" class="hidden">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#mypackage">My Package</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="home-container" id="home">
+        <div class="home-header">
           <h1>Arya Maulana</h1>
-        </div>
-        <div class="slider">
-          <span class="text first-text">I'm a </span>
-          <span class="text sec-text">Frontend Developer</span>
-        </div>
-      </div>
-
-      <div class="package-wrapper-right">
-        <div class="package-header">
-          <div class="garis"></div>
-          <p>A litle bit about me</p>
-        </div>
-        <div class="package-content">
-          <p>
-            Hiii! I'm Arya, I'm a 10th grade student at SMK Telkom Malang who
-            has an interest in web development and wants to develop it so that I
-            can fully master it.
+          <p>UI/UX Designer and FrontEnd Developer</p>
+          <p style="font-size: 20px; margin-top: 15px; margin-bottom: -10px">
+            Recent Project
           </p>
         </div>
 
-        <div class="wrapper-info">
-          <table class="info-table">
-            <thead>
-              <tr>
-                <th colspan="2">Information</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td style="font-weight: 600; color: #40a2e3">Name</td>
-                <td>Arya Maulana</td>
-              </tr>
-              <tr>
-                <td style="font-weight: 600; color: #40a2e3">Birthday</td>
-                <td>10 january, 2008</td>
-              </tr>
-              <tr>
-                <td style="font-weight: 600; color: #40a2e3">Phone</td>
-                <td>+62 818 0474 8037</td>
-              </tr>
-              <tr>
-                <td style="font-weight: 600; color: #40a2e3">Email</td>
-                <td>ary4maulanaa@gmail.com</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="riwayat-sekolah">
-      <div class="sch-head"><h1>Riwayat Sekolah</h1></div>
-      <div class="ket-sch">
-        <div class="head-lagi">
-          <p>Education</p>
-        </div>
-        <div class="smk">
-          <div class="garis-smk"></div>
-        </div>
-        <div class="nama-sch" style="margin-bottom: 40px">
-          <p>
-            <a href="https://www.smktelkom-mlg.sch.id/">SMK Telkom Malang</a>
-          </p>
-          <p style="font-weight: 600; margin-top: 10px; color: #505050">
-            Rekaya Perangkat lunak
-          </p>
-          <p style="font-weight: 600; margin-top: 5px; color: #505050">
-            2023 - now
-          </p>
-        </div>
-        <div class="nama-sch" style="margin-bottom: 40px">
-          <p>
-            <a href="https://smp.baitulmakmur.sch.id/"
-              >SMPI Baitul Makmur Malang</a
-            >
-          </p>
-          <p style="font-weight: 600; margin-top: 5px; color: #505050">
-            2020 - 2023
-          </p>
-        </div>
-        <div class="nama-sch" style="margin-bottom: 40px">
-          <p>
-            <a href="https://sekolahloka.com/data/sd-negeri-38-ampenan/"
-              >SDN 38 Ampenan, Kota Mataram</a
-            >
-          </p>
-          <p style="font-weight: 600; margin-top: 5px; color: #505050">
-            2014 - 2020
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-container" id="contact">
-      <div class="footer-section">
-        <div class="social">
-          <p>STAY CONNECTED</p>
-          <div class="social-icons">
-            <div class="github-icon">
-              <a href="https://github.com/AryaEm">
-                <i class="fa-brands fa-github"></i>
-              </a>
+        <div class="banner-slider">
+          <div class="slide-container">
+            <div class="slides">
+              <img src="/assets/Screenshot (324).png" class="active" />
+              <img src="/assets/Screenshot (326).png" />
+              <img src="/assets/Screenshot (327).png" />
+              <img src="/assets/Screenshot (328).png" />
+              <img src="/assets/Screenshot (329).png" />
             </div>
-            <div class="ig-icon">
-              <a href="https://www.instagram.com/aryaa.em/">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
+
+            <div class="buttons">
+              <span class="next">&#10095;</span>
+              <span class="prev">&#10094;</span>
+            </div>
+
+            <div class="dotsContainer">
+              <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+              <div class="dot" attr="1" onclick="switchImage(this)"></div>
+              <div class="dot" attr="2" onclick="switchImage(this)"></div>
+              <div class="dot" attr="3" onclick="switchImage(this)"></div>
+              <div class="dot" attr="4" onclick="switchImage(this)"></div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="about-footer">
-          <p>ABOUT</p>
-          <h3>Junior web developer & UI/UX designer.</h3>
+      <section class="package-container" id="mypackage">
+        <div class="package-wrapper-left">
+          <div class="foto-gwa">
+            <img
+              src="/assets/Vestia-Zeta_pr-img_03 (1).png"
+              alt="Contoh Foto"
+              width="90%"
+            />
+          </div>
+          <div class="biodata">
+            <h1>Arya Maulana</h1>
+          </div>
+          <div class="slider">
+            <span class="text first-text">I'm a </span>
+            <span class="text sec-text">Frontend Developer</span>
+          </div>
         </div>
-      </div>
 
-      <div class="contact-section">
-        <h1 class="form-title">Contact Me</h1>
-        <form method="POST" action="" class="form">
-          <div class="input-data">
-            <input
-              type="text"
-              name="nama"
-              id="nama"
-              class="input"
-              placeholder=" "
-              required
-            />
-            <label for="nama" class="label">Nama Lengkap</label>
+        <div class="package-wrapper-right">
+          <div class="package-header">
+            <div class="garis"></div>
+            <p>A litle bit about me</p>
           </div>
-          <div class="input-data">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="input"
-              placeholder=" "
-              required
-            />
-            <label for="email" class="label">Email</label>
+          <div class="package-content">
+            <p>
+              Hiii! I'm Arya, I'm a 10th grade student at SMK Telkom Malang who
+              has an interest in web development and wants to develop it so that I
+              can fully master it.
+            </p>
           </div>
-          <div class="input-data">
-            <input
-              type="text"
-              name="role"
-              id="role"
-              class="input"
-              placeholder=" "
-              required
-            />
-            <label for="role" class="label">What are you interest in</label>
-          </div>
-          <button type="submit" class="btn">Send</button>
-        </form>
-      </div>
-    </section>
 
-    <script src="/js/script.js"></script>
-  </body>
-</html>
+          <div class="wrapper-info">
+            <table class="info-table">
+              <thead>
+                <tr>
+                  <th colspan="2">Information</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="font-weight: 600; color: #40a2e3">Name</td>
+                  <td>Arya Maulana</td>
+                </tr>
+                <tr>
+                  <td style="font-weight: 600; color: #40a2e3">Birthday</td>
+                  <td>10 january, 2008</td>
+                </tr>
+                <tr>
+                  <td style="font-weight: 600; color: #40a2e3">Phone</td>
+                  <td>+62 818 0474 8037</td>
+                </tr>
+                <tr>
+                  <td style="font-weight: 600; color: #40a2e3">Email</td>
+                  <td>ary4maulanaa@gmail.com</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="riwayat-sekolah">
+        <div class="sch-head"><h1>Riwayat Sekolah</h1></div>
+        <div class="ket-sch">
+          <div class="head-lagi">
+            <p>Education</p>
+          </div>
+          <div class="smk">
+            <div class="garis-smk"></div>
+          </div>
+          <div class="nama-sch" style="margin-bottom: 40px">
+            <p>
+              <a href="https://www.smktelkom-mlg.sch.id/">SMK Telkom Malang</a>
+            </p>
+            <p style="font-weight: 600; margin-top: 10px; color: #505050">
+              Rekaya Perangkat lunak
+            </p>
+            <p style="font-weight: 600; margin-top: 5px; color: #505050">
+              2023 - now
+            </p>
+          </div>
+          <div class="nama-sch" style="margin-bottom: 40px">
+            <p>
+              <a href="https://smp.baitulmakmur.sch.id/"
+                >SMPI Baitul Makmur Malang</a
+              >
+            </p>
+            <p style="font-weight: 600; margin-top: 5px; color: #505050">
+              2020 - 2023
+            </p>
+          </div>
+          <div class="nama-sch" style="margin-bottom: 40px">
+            <p>
+              <a href="https://sekolahloka.com/data/sd-negeri-38-ampenan/"
+                >SDN 38 Ampenan, Kota Mataram</a
+              >
+            </p>
+            <p style="font-weight: 600; margin-top: 5px; color: #505050">
+              2014 - 2020
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-container" id="contact">
+        <div class="footer-section">
+          <div class="social">
+            <p>STAY CONNECTED</p>
+            <div class="social-icons">
+              <div class="github-icon">
+                <a href="https://github.com/AryaEm">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="ig-icon">
+                <a href="https://www.instagram.com/aryaa.em/">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-footer">
+            <p>ABOUT</p>
+            <h3>Junior web developer & UI/UX designer.</h3>
+          </div>
+        </div>
+
+        <div class="contact-section">
+          <h1 class="form-title">Contact Me</h1>
+          <form method="POST" action="" class="form">
+            <div class="input-data">
+              <input
+                type="text"
+                name="nama"
+                id="nama"
+                class="input"
+                placeholder=" "
+                required
+              />
+              <label for="nama" class="label">Nama Lengkap</label>
+            </div>
+            <div class="input-data">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="input"
+                placeholder=" "
+                required
+              />
+              <label for="email" class="label">Email</label>
+            </div>
+            <div class="input-data">
+              <input
+                type="text"
+                name="role"
+                id="role"
+                class="input" 
+                placeholder=" "
+                required
+              />
+              <label for="role" class="label">What are you interest in</label>
+            </div>
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <script src="/js/script.js"></script>
+    </body>
+  </html>

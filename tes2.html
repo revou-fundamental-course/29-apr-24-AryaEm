@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -65,4 +65,439 @@
 
     </section>
   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+            @media only screen and (max-width: 769px) {
+              .package-container {
+                background: #efefef;
+                width: 100%;
+                height: auto;
+                /* display: flex; */
+                /* justify-content: space-between; */
+                align-items: center;
+                margin: auto;
+                padding: 20px 0;
+                /* padding: auto; */
+              }
+
+              .package-container > .package-wrapper-left {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 70%;
+                height: 60%;
+                border: 1px solid rgba(128, 128, 128, 0.753);
+                margin: auto;
+                background: #f9f9f9;
+                border-radius: 20px;
+                margin-bottom: 40px;
+                -webkit-box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+                -moz-box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+                box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+              }
+
+              .package-container > .package-wrapper-left > .foto-gwa {
+                overflow: hidden;
+                height: 380px;
+                width: 85%;
+                border-radius: 19px 19px 120px 120px;
+                padding-left: 50px;
+                /* border: 1px solid #505050; */
+                -webkit-box-shadow: inset 0px -27px 100px -31px rgba(51, 59, 111, 1);
+                -moz-box-shadow: inset 0px -27px 100px -31px rgba(51, 59, 111, 1);
+                box-shadow: inset 0px -27px 100px -31px rgba(51, 59, 111, 1);
+                background: #67adb9;
+              }
+
+              .package-container > .package-wrapper-left > .biodata > h1 {
+                padding-top: 15px;
+                font-weight: 700;
+                font-size: 25px;
+                color: #505050;
+              }
+
+              .slider {
+                width: 80%;
+                height: 12%;
+                overflow: hidden;
+                /* margin: 0 auto; */
+                text-align: center;
+              }
+
+              .slider .text {
+                position: relative;
+                color: #40a2e3;
+                font-size: 20px;
+                font-weight: 700;
+              }
+
+              .slider .text.first-text {
+                color: #505050;
+              }
+
+              .text.sec-text:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: #f9f9f9;
+                border-left: 2px solid #40a2e3;
+                /* border: 1px solid greenyellow; */
+                animation: animate 4s steps(14) infinite;
+              }
+
+              @keyframes animate {
+                40%,
+                60% {
+                  left: calc(100% + 4px);
+                }
+                100% {
+                  left: 0%;
+                }
+              }
+
+              .package-container > .package-wrapper-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 70%;
+                height: 80%;
+                margin: auto;
+                border: 1px solid rgba(128, 128, 128, 0.753);
+                background: #f9f9f9;
+                border-radius: 20px;
+                -webkit-box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+                -moz-box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+                box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+              }
+
+              .package-container > .package-wrapper-right > .package-header {
+                margin: 0 0 20px 0;
+                width: 80%;
+                height: 50px;
+                display: flex;
+                align-items: center;
+              }
+
+              .package-container > .package-wrapper-right > .package-header > .garis {
+                width: 4px;
+                height: 50px;
+                background-color: #40a2e3;
+                border-radius: 50px;
+              }
+
+              .package-container > .package-wrapper-right > .package-header > p {
+                width: 90%px;
+                height: 50px;
+                /* border: 1px solid; */
+                display: flex;
+                align-items: center;
+                padding: 0 16px;
+                font-weight: 600;
+                font-size: 25px;
+              }
+              .package-container > .package-wrapper-right > .package-content {
+                display: flex;
+                justify-content: center;
+                font-size: 15px;
+                color: #505050;
+              }
+
+              .package-container > .package-wrapper-right > .package-content > p {
+                width: 80%;
+                /* border: 1px solid; */
+              }
+
+              .wrapper-info {
+                background-color: #f9f9f9;
+                width: 80%;
+                height: 240px;
+                margin-top: 40px;
+                box-sizing: border-box;
+                border-radius: 20px;
+                overflow: hidden;
+                border: 1px solid #ddd;
+              }
+
+              .info-table {
+                width: 100%;
+                height: 100%;
+                /* margin: 50px auto; */
+                border-collapse: collapse;
+              }
+
+              .info-table td,
+              .info-table th {
+                border: 1px solid #ddd;
+                padding: 10px;
+                text-align: left;
+              }
+
+              .info-table th {
+                background-color: #fbfbfb;
+                height: 30px;
+                font-weight: 700;
+                font-size: 20px;
+              }
+            }
+
+            body{
+              margin: 0;
+              padding: 0;
+            }
+
+            .package-container {
+        background: #efefef;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .package-container > .package-wrapper-left {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 38%;
+        height: 80%;
+        border: 1px solid rgba(128, 128, 128, 0.753);
+        margin-left: 80px;
+        background: #f9f9f9;
+        border-radius: 20px;
+        /* padding-top: 40px; */
+        -webkit-box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+        -moz-box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+        box-shadow: 0px 4px 69px -41px rgba(51, 59, 111, 1);
+      }
+
+      .package-container > .package-wrapper-left > .foto-gwa {
+        overflow: hidden;
+        height: 380px;
+        width: 100%;
+        border-radius: 19px 19px 120px 120px;
+        padding-left: 50px;
+        /* border: 1px solid #505050; */
+        -webkit-box-shadow: inset 0px -27px 100px -31px rgba(51, 59, 111, 1);
+        -moz-box-shadow: inset 0px -27px 100px -31px rgba(51, 59, 111, 1);
+        box-shadow: inset 0px -27px 100px -31px rgba(51, 59, 111, 1);
+        background: #67adb9;
+      }
+
+      .package-container > .package-wrapper-left > .biodata > h1 {
+        padding: 15px;
+        font-weight: 700;
+        font-size: 25px;
+        color: #505050;
+      }
+
+      .slider {
+        width: 80%;
+        height: 12%;
+        overflow: hidden;
+        /* margin: 0 auto; */
+        padding-left: 60px;
+      }
+
+      .slider .text {
+        position: relative;
+        color: #40a2e3;
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .slider .text.first-text {
+        color: #505050;
+      }
+
+      .text.sec-text:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #f9f9f9;
+        border-left: 2px solid #40a2e3;
+        /* border: 1px solid greenyellow; */
+        animation: animate 4s steps(14) infinite;
+      }
+
+      @keyframes animate {
+        40%,
+        60% {
+          left: calc(100% + 4px);
+        }
+        100% {
+          left: 0%;
+        }
+      }
+
+      .package-container {
+        display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px;
+          padding: 20px;
+      }
+
+      .package-wrapper-right {
+        float: none;
+          width: 100%;
+          margin: 0;
+      }
+
+      .package-wrapper-left {
+        .package-wrapper-right {
+          clear: none;
+          width: 100%;
+          margin: 0;
+        }
+      }
+
+      .package-container > .package-wrapper-right > .package-header {
+        margin: 0 0 20px 0;
+        width: 80%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+      }
+
+      .package-container > .package-wrapper-right > .package-header > .garis {
+        width: 4px;
+        height: 50px;
+        background-color: #40a2e3;
+        border-radius: 50px;
+      }
+
+      .package-container > .package-wrapper-right > .package-header > p {
+        width: 90%px;
+        height: 50px;
+        /* border: 1px solid; */
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        font-weight: 600;
+        font-size: 25px;
+      }
+      .package-container > .package-wrapper-right > .package-content {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        color: #505050;
+      }
+
+      .package-container > .package-wrapper-right > .package-content > p {
+        width: 80%;
+        /* border: 1px solid; */
+      }
+
+      .wrapper-info {
+        background-color: #f9f9f9;
+        width: 80%;
+        height: 240px;
+        margin-top: 40px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 1px solid #ddd;
+      }
+
+      .info-table {
+        width: 100%;
+        height: 100%;
+        /* margin: 50px auto; */
+        border-collapse: collapse;
+      }
+
+      .info-table td,
+      .info-table th {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+
+      .info-table th {
+        background-color: #fbfbfb;
+        height: 30px;
+        font-weight: 700;
+        font-size: 20px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <section class="package-container" id="mypackage">
+      <div class="package-wrapper-left">
+        <div class="foto-gwa">
+          <img
+            src="/assets/Vestia-Zeta_pr-img_03 (1).png"
+            alt="Contoh Foto"
+            width="90%"
+          />
+        </div>
+        <div class="biodata">
+          <h1>Arya Maulana</h1>
+        </div>
+        <div class="slider">
+          <span class="text first-text">I'm a </span>
+          <span class="text sec-text">Frontend Developer</span>
+        </div>
+      </div>
+
+      <div class="package-wrapper-right">
+        <div class="package-header">
+          <div class="garis"></div>
+          <p>A litle bit about me</p>
+        </div>
+        <div class="package-content">
+          <p>
+            Hiii! I'm Arya, I'm a 10th grade student at SMK Telkom Malang who
+            has an interest in web development and wants to develop it so that I
+            can fully master it.
+          </p>
+        </div>
+
+        <div class="wrapper-info">
+          <table class="info-table">
+            <thead>
+              <tr>
+                <th colspan="2">Information</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="font-weight: 600; color: #40a2e3">Name</td>
+                <td>Arya Maulana</td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600; color: #40a2e3">Birthday</td>
+                <td>10 january, 2008</td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600; color: #40a2e3">Phone</td>
+                <td>+62 818 0474 8037</td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600; color: #40a2e3">Email</td>
+                <td>ary4maulanaa@gmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
+
